@@ -1,0 +1,82 @@
+:root 
+{
+    --primer-color: #243b67;
+    --segundo-color: #c27dfc;
+    --tercer-color: #6e5dcf;
+    --cuarto-color: #eaebed;
+    --tipoletra: Arial, Helvetica, sans-serif;
+}
+
+html body
+{
+    background-image: url("../img/herocontainer/FondoRegistrarExterno2..jpg") ;
+    background-size: cover;
+}
+
+.botones
+{
+    display: flex;
+    gap: 20px;
+}
+
+a.button
+{
+    text-decoration: none;
+    color: var(--cuarto-color);
+}
+
+
+h1.tituloformulario
+{
+    color: var(--primer-color);
+    font-family: 'cinzel';
+    color: #243b67;
+}
+
+form.registrarinfo
+{
+    background-color: #eaebedb8;
+    width: 90%;
+    height: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 200px;
+    padding: 20px 20px 20px 20px;
+}
+
+.logoformularioregistro
+{
+    width: 200px;
+}
+
+.subtexto
+{
+    color: var(--primer-color);
+    font-size: 20px;
+    font-family: 'cinzel';
+}
+
+.btnregistrar
+{
+    background-color: var(--segundo-color);
+    color: var(--cuarto-color);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'cinzel';
+}
+
+.btnregistrar:hover
+{
+    background-color: var(--primer-color);
+}
+
+div.checkbox
+{
+    margin-left: 15px;
+}

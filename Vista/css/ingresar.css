@@ -1,0 +1,107 @@
+:root 
+{
+    --primer-color: #243b67;
+    --segundo-color: #c27dfc;
+    --tercer-color: #6e5dcf;
+    --cuarto-color: #eaebed;
+    --tipoletra: Arial, Helvetica, sans-serif;
+}
+
+body.fondo
+{
+    background-image: url("../img/fondoLogin/fondoLogin.jpg");
+}
+
+form.login
+{
+    background-color: #eaebed75;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 200px;  
+}
+
+.login p
+{
+    color: var(--primer-color);
+    font-size: 20px;
+}
+
+label
+{
+    font-size: 20px;
+    font-family: 'cinzel';
+    color: var(--primer-color);
+}
+
+button.btnprimari
+{
+    background-color: var(--tercer-color);
+    color: var(--cuarto-color);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'cinzel';
+    margin: 10px 0 10px 0;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    display: flex;
+}
+
+button.btnprimari:hover
+{
+    background-color: var(--primer-color);
+    color: var(--cuarto-color);
+    border:2px solid #eaebed;
+}
+
+.botones
+{
+    display: flex;
+    gap: 20px;
+}
+
+a.button
+{
+    text-decoration: none;
+    color: var(--cuarto-color);
+}
+
+input
+{
+    width: 80%;
+    border-radius: 1em;
+    height: 35px;
+    font-family: 'cinzel';
+    color: var(--primer-color);
+    
+}
+
+h1.tituloformulario
+{
+    font-family: 'cinzel';
+    color: var(--primer-color);
+}
+
+.logologin
+{
+    width: 250px;
+}
+
+.Recuperacion
+{
+    font-size: 20px;
+    font-family: 'cinzel';
+    margin-top: 20px;
+    text-decoration: none;
+    color: #243b67;
+}
+
+.Recuperacion:hover
+{
+    color: #6e5dcf;
+}

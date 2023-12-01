@@ -1,0 +1,129 @@
+:root 
+{
+    --primer-color: #243b67;
+    --segundo-color: #c27dfc;
+    --tercer-color: #6e5dcf;
+    --cuarto-color: #eaebed;
+    --tipoletra: 'cinzel';
+}
+
+.infousuarios
+{
+    width: 90%;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;   
+}
+
+form.registroInfoUsuarios 
+{
+    display: contents;
+}
+
+div.accordion-item
+{
+    justify-content: center;
+    border: none;
+}
+
+nav
+{
+    height: 100%;
+}
+
+div.accordion-body
+{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+button.accordion-button
+{
+    background-color: var(--cuarto-color);
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+}
+
+form.registroInfoUsuarios
+{
+    background-color: var(--cuarto-color);
+    border-radius: 1rem;
+    margin-top: 20px;
+    padding: 15px 25px 15px 25px;
+    justify-content: center;
+}
+
+p.subtexto
+{
+    text-align: center;
+    font-family: 'cinzel';
+}
+
+label
+{
+    font-size: 20px;
+    font-family: 'cinzel';
+    color: var(--primer-color);
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+button.btnregistrar
+{
+    background-color: var(--tercer-color);
+    color: var(--cuarto-color);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'cinzel';
+    margin-top: 10px;
+}
+
+button.btnregistrar:hover
+{
+    background-color: #243b67;
+    color: var(--cuarto-color);
+}
+
+h1
+{
+    font-family: 'cinzel';
+    color: var(--primer-color);
+    text-align: center;
+}
+
+h4
+{
+    font-family: 'cinzel';
+    color: var(--primer-color);
+    text-align: center;
+}
+
+section.TablaInformacion
+{
+    background-color: var(--cuarto-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 20px;
+    padding: 15px 15px 15px 20px;
+}
+
+.table-responsive
+{
+    height: 350px;
+}
+
+table.table
+{
+    font-family: 'cinzel';
+    font-size: 16px;
+}
+
+main.d-flex.flex-nowrap
+{
+  background-color: var(--primer-color);
+}
+
